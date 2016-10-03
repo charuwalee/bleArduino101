@@ -6,7 +6,7 @@ This file is a project file where the main loop resides.
 
 - BLEPeipheral.cpp: 
 The change is made on the file BLEPeripheral.cpp version 1.0.6.
-Replace the file BLEPeripheral.cpp in C:\Users\...\AppData\Local\Arduino15\packages\Intel\hardware\arc32\1.0.6\libraries\CurieBLE\src directory.
+Replace the file BLEPeripheral.cpp in "C:\Users\...\AppData\Local\Arduino15\packages\Intel\hardware\arc32\1.0.6\libraries\CurieBLE\src" directory.
 In BLEPeripheral::begin() function, a condition is added before calling  _init() function as followed.
 
   if (_state == BLE_PERIPH_STATE_NOT_READY) {
